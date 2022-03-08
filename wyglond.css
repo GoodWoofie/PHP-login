@@ -1,0 +1,21 @@
+.row {
+display: flex;
+flex-direction: row;
+flex-flow: column wrap;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    justify-content: space-around;
+}
+form > div {
+margin: 30px;
+}
+body {
+    background-color: aquamarine;
+}
+label {
+    display: block;
+    width: 50%;
+}
